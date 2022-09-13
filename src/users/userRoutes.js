@@ -7,3 +7,4 @@ const userRouter = Router();
 userRouter.post("/user/signup", [hashPassword], addUser);
 userRouter.post("/user/login", login);
 
+module.exports = userRouter;
